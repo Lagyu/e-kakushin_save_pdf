@@ -1,0 +1,45 @@
+{
+  "name": "e-kakushin_stubs_auto_downloader",
+  "version": "0.0.1",
+  "dependencies": {
+    "dotenv": "latest",
+    "puppeteer": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "babel-jest": "^27.2.4",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-plugin-import": "2",
+    "eslint-plugin-node": "11",
+    "eslint-plugin-promise": "5",
+    "eslint-plugin-standard": "4",
+    "jest": "^27.2.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "commonjs",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "transformIgnorePatterns": []
+  }
+}
