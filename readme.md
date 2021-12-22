@@ -3,8 +3,6 @@
   - Node 14.x
     - [Download from here](https://nodejs.org/)
       - Install Instructions can be found [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-  - 
-
 
 ### Usage
 #### Development
